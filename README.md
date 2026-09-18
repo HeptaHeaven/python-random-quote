@@ -1,17 +1,18 @@
-# Let's Write a Python Quote Bot!
+# Random Quote (Android)
 
-This repository will get you started with building a quote bot in Python. It's meant to be used along with the [Learning Lab](https://lab.github.com) intro to Python.
+An Android application ported from the original Python Random Quote project (`HeptaHeaven/python-random-quote`), built with modern Kotlin and Jetpack Compose.
 
-When complete, you'll be able to grab random quotes from the command line, like this:
+## Features
+- **Core Principles**: Incorporates the original 14 engineering and software design principles from `quotes.txt`.
+- **Random Quote Engine**: Generates random quotes on demand, tracking exploration count and avoiding consecutive duplicates.
+- **Quote Navigation**: History back/forward navigation to revisit previously generated quotes.
+- **Favorites & Persistence**: Mark quotes as favorites with local persistence across sessions.
+- **Copy & Share**: Quick actions to copy principles to the clipboard or share via Android's native share sheet.
+- **Browse Collection**: Bottom sheet interface to browse all principles categorized by focus area (Performance, Simplicity, Communication, Craftsmanship, Architecture, Philosophy).
+- **Design & Typography**: Crafted with Material Design 3, custom display typography (Playfair Display & Plus Jakarta Sans), and an adaptive launcher icon.
 
-> **$** python get-quote.py
-> 
-> Keep it logically awesome
-> 
-> **$** python get-quote.py
-> 
-> Speak like a human
-
-## Start the Tutorial
-
-You can find your next step in [this repo's issues](../../issues/)!
+## Tech Stack
+- Kotlin 2.1.0 & Jetpack Compose
+- Gradle 9.3.1 with Kotlin DSL
+- Material 3 Design System
+- StateFlow & ViewModel MVVM architecture

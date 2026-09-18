@@ -1,0 +1,6 @@
+{
+  "name": "Random Quote",
+  "description": "A random quote generator presenting inspiring software and design principles.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

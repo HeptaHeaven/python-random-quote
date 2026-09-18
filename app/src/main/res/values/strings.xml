@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Random Quote</string>
+    <string name="app_tagline">Engineering &amp; Design Principles</string>
+    <string name="btn_next_quote">Next Random Quote</string>
+    <string name="btn_copy">Copy Quote</string>
+    <string name="btn_share">Share Quote</string>
+    <string name="btn_favorite">Toggle Favorite</string>
+    <string name="btn_previous">Previous Quote</string>
+    <string name="btn_browse_all">Browse All Principles</string>
+    <string name="tab_all">All Principles</string>
+    <string name="tab_favorites">Favorites</string>
+    <string name="msg_copied">Quote copied to clipboard</string>
+    <string name="empty_favorites">No favorite quotes saved yet. Tap the heart on any quote to save it!</string>
+    <string name="dialog_add_quote">Add New Principle</string>
+    <string name="input_quote_hint">Enter your quote or principle</string>
+    <string name="input_tag_hint">Category (e.g., Design, Architecture)</string>
+    <string name="action_save">Save</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="stats_total_generated">Quotes Explored: %1$d</string>
+</resources>
